@@ -128,7 +128,7 @@ class CreatePost extends Component {
                         <FormGroup>
                             <Label>Body</Label>
                             <Input
-                                type="password"
+                                type="text"
                                 name="body"
                                 placeholder='Write your thoughts'
                                 onChange={this.handleChange}
