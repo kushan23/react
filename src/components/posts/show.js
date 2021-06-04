@@ -44,7 +44,7 @@ class PostShow extends Component {
             username: usern
         }
 
-        axios.post('https://mernback23.herokuapp.com/posts', payload)
+        axios.post('https://mernback23.herokuapp.com/app/posts', payload)
             .then((Response) => {
                 const data = Response.data
                 this.setState({ posts: data });
